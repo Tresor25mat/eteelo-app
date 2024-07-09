@@ -1,7 +1,5 @@
 <?php
   try{
-   $pdo=new PDO('mysql:host=localhost;dbname=bdd_eteelo_app','root','miradie25landu');
-   // $pdo=new PDO('mysql:host=91.234.195.182;dbname=c1950075c_bdd_eteelo_app','c1950075c_user_bdd_eteelo_app','miradie25landu');
 
    $na=$pdo->query("SET NAMES 'utf8'");
    
